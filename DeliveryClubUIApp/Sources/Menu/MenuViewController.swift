@@ -11,6 +11,7 @@ final class MenuViewController: UIViewController {
 
     private enum Row: String, CaseIterable {
         case colors = "Colors"
+        case typography = "Typography"
     }
 
     // MARK: - Lifecycle
@@ -50,11 +51,15 @@ extension MenuViewController: UITableViewDelegate, UITableViewDataSource {
         didSelectRowAt indexPath: IndexPath) {
         
         tableView.deselectRow(at: indexPath, animated: true)
+        let title = Row.allCases[indexPath.row].rawValue
+        let viewController: UIViewController
         switch Row.allCases[indexPath.row] {
         case .colors:
-            let controller = UIHostingController(rootView: ColorsView())
-            controller.title = Row.allCases[indexPath.row].rawValue
-            navigationController?.pushViewController(controller, animated: true)
+            viewController = ColorsViewController()
+        case .typography:
+            viewController = TypographyViewController()
         }
+        viewController.title = title
+        navigationController?.pushViewController(viewController, animated: true)
     }
 }

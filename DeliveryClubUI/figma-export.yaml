@@ -1,7 +1,7 @@
 ---
 figma:
   # Identifier of the file containing light color palette, icons and light images. To obtain a file id, open the file in the browser. The file id will be present in the URL after the word file and before the file name.
-  lightFileId: RhMXtcLneI0WT1E82TJOfv
+  lightFileId: ss3FcJOyxTYvD685QKArIF
 
 # [optional] iOS export parameters
 ios:
@@ -23,9 +23,9 @@ ios:
     # Color name style: camelCase or snake_case
     nameStyle: camelCase
     # [optional] Absolute or relative path to swift file where to export UIKit colors (UIColor) for accessing from the code (e.g. UIColor.backgroundPrimary)
-    colorSwift: "./Sources/UIColor+extension.swift"
+    colorSwift: "./Sources/Colors/UIColor+extension.swift"
     # [optional] Absolute or relative path to swift file where to export SwiftUI colors (Color) for accessing from the code (e.g. Color.backgroundPrimary)
-    # swiftuiColorSwift: "./Sources/Color+extension.swift"
+    swiftuiColorSwift: "./Sources/Colors/Color+extension.swift"
 
   # Parameters for exporting icons
   icons:
