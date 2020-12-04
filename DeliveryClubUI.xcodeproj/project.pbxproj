@@ -18,6 +18,8 @@
 		301205AD2573C5D600B089E0 /* OrderEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301205AC2573C5D600B089E0 /* OrderEntry.swift */; };
 		301205B12573C6A800B089E0 /* HistoryManagerProtocolMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301205B02573C6A800B089E0 /* HistoryManagerProtocolMock.swift */; };
 		301205B52573C9DD00B089E0 /* WidgetEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301205B42573C9DD00B089E0 /* WidgetEntryView.swift */; };
+		301206342576A2DA00B089E0 /* WidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301206332576A2DA00B089E0 /* WidgetView.swift */; };
+		301206372576A34500B089E0 /* HistoryManagerProtocolMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301205B02573C6A800B089E0 /* HistoryManagerProtocolMock.swift */; };
 		A034C6E0256F97400083808E /* Color+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A034C6DF256F97400083808E /* Color+extension.swift */; };
 		A034C6E3256F97D20083808E /* WalrusColor+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A034C6E2256F97D20083808E /* WalrusColor+SwiftUI.swift */; };
 		A034C700256F9FD80083808E /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = A034C6FF256F9FD80083808E /* Typography.swift */; };
@@ -106,6 +108,7 @@
 		301205AC2573C5D600B089E0 /* OrderEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderEntry.swift; sourceTree = "<group>"; };
 		301205B02573C6A800B089E0 /* HistoryManagerProtocolMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryManagerProtocolMock.swift; sourceTree = "<group>"; };
 		301205B42573C9DD00B089E0 /* WidgetEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetEntryView.swift; sourceTree = "<group>"; };
+		301206332576A2DA00B089E0 /* WidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetView.swift; sourceTree = "<group>"; };
 		A034C6DF256F97400083808E /* Color+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+extension.swift"; sourceTree = "<group>"; };
 		A034C6E2256F97D20083808E /* WalrusColor+SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WalrusColor+SwiftUI.swift"; sourceTree = "<group>"; };
 		A034C6FF256F9FD80083808E /* Typography.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
@@ -351,6 +354,7 @@
 			children = (
 				CA4D52C7254AE7C100A6FD0B /* MenuViewController.swift */,
 				A0C80269256FF7D3003A503B /* TypographyViewController.swift */,
+				301206332576A2DA00B089E0 /* WidgetView.swift */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -557,10 +561,12 @@
 			files = (
 				CA4D5391254AFF8400A6FD0B /* GridStack.swift in Sources */,
 				A0C8026A256FF7D3003A503B /* TypographyViewController.swift in Sources */,
+				301206342576A2DA00B089E0 /* WidgetView.swift in Sources */,
 				CA4D5386254AEFB500A6FD0B /* ColorsView.swift in Sources */,
 				CA4D52C8254AE7C100A6FD0B /* MenuViewController.swift in Sources */,
 				A0C8026F25700680003A503B /* DemoViewController.swift in Sources */,
 				CA4D52C4254AE7C100A6FD0B /* AppDelegate.swift in Sources */,
+				301206372576A34500B089E0 /* HistoryManagerProtocolMock.swift in Sources */,
 				CA4D52C6254AE7C100A6FD0B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,6 +12,7 @@ final class MenuViewController: UIViewController {
     private enum Row: String, CaseIterable {
         case colors = "Colors"
         case typography = "Typography"
+        case widget = "Widget"
     }
 
     // MARK: - Lifecycle
@@ -58,6 +59,8 @@ extension MenuViewController: UITableViewDelegate, UITableViewDataSource {
             viewController = ColorsViewController()
         case .typography:
             viewController = TypographyViewController()
+        case .widget:
+            viewController = UIHostingController(rootView: WidgetView())
         }
         viewController.title = title
         navigationController?.pushViewController(viewController, animated: true)

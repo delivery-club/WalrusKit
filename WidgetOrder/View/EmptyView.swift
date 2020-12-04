@@ -23,6 +23,7 @@ struct EmptyView: View {
             VStack(spacing: Constants.spacingBetweenEmojiAndTexts) {
                 text(Constants.emoji, with: .header(size: .large))
                 text("Нет активных заказов", with: .main(size: .large))
+                    .multilineTextAlignment(.center)
             }
             .padding(.all, Constants.padding)
         }
