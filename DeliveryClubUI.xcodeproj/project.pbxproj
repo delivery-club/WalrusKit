@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30A34AA6257CF41800E44511 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A34AA5257CF41800E44511 /* Typography.swift */; };
+		30A34AA9257CF56D00E44511 /* Typography+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A34AA8257CF56D00E44511 /* Typography+UIKit.swift */; };
+		30A34AAC257CF90B00E44511 /* Typography+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A34AAB257CF90B00E44511 /* Typography+SwiftUI.swift */; };
 		A034C6E0256F97400083808E /* Color+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A034C6DF256F97400083808E /* Color+extension.swift */; };
 		A034C6E3256F97D20083808E /* WalrusColor+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A034C6E2256F97D20083808E /* WalrusColor+SwiftUI.swift */; };
 		A034C717256FA32A0083808E /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A034C716256FA32A0083808E /* DesignSystem.swift */; };
@@ -62,6 +65,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		30A34AA5257CF41800E44511 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		30A34AA8257CF56D00E44511 /* Typography+UIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Typography+UIKit.swift"; sourceTree = "<group>"; };
+		30A34AAB257CF90B00E44511 /* Typography+SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Typography+SwiftUI.swift"; sourceTree = "<group>"; };
 		A034C6DF256F97400083808E /* Color+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+extension.swift"; sourceTree = "<group>"; };
 		A034C6E2256F97D20083808E /* WalrusColor+SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WalrusColor+SwiftUI.swift"; sourceTree = "<group>"; };
 		A034C716256FA32A0083808E /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
@@ -125,6 +131,9 @@
 			isa = PBXGroup;
 			children = (
 				A0C80260256FF234003A503B /* Fonts */,
+				30A34AA5257CF41800E44511 /* Typography.swift */,
+				30A34AA8257CF56D00E44511 /* Typography+UIKit.swift */,
+				30A34AAB257CF90B00E44511 /* Typography+SwiftUI.swift */,
 			);
 			path = Typography;
 			sourceTree = "<group>";
@@ -412,6 +421,9 @@
 				A0C80263256FF263003A503B /* Fonts.swift in Sources */,
 				A0C80266256FF29B003A503B /* MontserratFont.swift in Sources */,
 				A0FA6B83256F90B300501146 /* WalrusColor.swift in Sources */,
+				30A34AA9257CF56D00E44511 /* Typography+UIKit.swift in Sources */,
+				30A34AAC257CF90B00E44511 /* Typography+SwiftUI.swift in Sources */,
+				30A34AA6257CF41800E44511 /* Typography.swift in Sources */,
 				A0FA6B86256F927B00501146 /* WalrusColor+UIKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

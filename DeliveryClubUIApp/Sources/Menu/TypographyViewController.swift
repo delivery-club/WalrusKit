@@ -21,7 +21,17 @@ final class TypographyViewController: DemoViewController<TypographySampleUIKit, 
 
 struct TypographySampleSwiftUI: View {
     var body: some View {
-        Text("TBD")
+        GeometryReader { geometry in
+            ScrollView([.horizontal, .vertical]) {
+                VStack(alignment: .leading, spacing: 10) {
+                    ForEach(Typography.Kind.allStyles.map { $0.style }, id: \.id) { style in
+                        text(style.kind.sampleText, with: style.kind)
+                    }
+                }
+                .padding([.leading, .trailing], 10)
+                .frame(minHeight: geometry.size.height, alignment: .top)
+            }
+        }
     }
 }
 
