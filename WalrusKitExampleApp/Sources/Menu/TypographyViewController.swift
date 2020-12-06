@@ -1,11 +1,11 @@
 //
 //  TypographyViewController.swift
-//  DeliveryClubUIApp
+//  WalrusKitExampleApp
 //
 //  Created by Sakhey Ignatyev on 26.11.2020.
 //
 
-import DeliveryClubUI
+import WalrusKit
 import SwiftUI
 import UIKit
 

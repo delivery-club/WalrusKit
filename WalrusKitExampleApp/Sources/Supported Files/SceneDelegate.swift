@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  DeliveryClubUIApp
+//  WalrusKitExampleApp
 //
 //  Created by Aleksei Smirnov on 29.10.2020.
 //

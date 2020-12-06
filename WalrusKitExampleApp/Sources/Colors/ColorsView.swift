@@ -1,11 +1,11 @@
 //
 //  ColorsView.swift
-//  DeliveryClubUIApp
+//  WalrusKitExampleApp
 //
 //  Created by Aleksei Smirnov on 29.10.2020.
 //
 
-import DeliveryClubUI
+import WalrusKit
 import SwiftUI
 
 final class ColorsViewController: DemoViewController<ColorsViewUIKit, ColorsView> {

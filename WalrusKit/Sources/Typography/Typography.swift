@@ -1,6 +1,6 @@
 //
 //  Typography.swift
-//  DeliveryClubUI
+//  WalrusKit
 //
 //  Created by Sakhey Ignatyev on 25.11.2020.
 //

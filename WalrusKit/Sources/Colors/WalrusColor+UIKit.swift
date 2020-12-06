@@ -1,6 +1,6 @@
 //
 //  WalrusColor.swift
-//  DeliveryClubUI
+//  WalrusKit
 //
 //  Created by Sakhey Ignatyev on 26.11.2020.
 //

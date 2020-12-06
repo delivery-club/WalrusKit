@@ -1,12 +1,12 @@
 //
 //  AppDelegate.swift
-//  DeliveryClubUIApp
+//  WalrusKitExampleApp
 //
 //  Created by Aleksei Smirnov on 29.10.2020.
 //
 
 import UIKit
-import DeliveryClubUI
+import WalrusKit
 
 @main
 final class AppDelegate: UIResponder {

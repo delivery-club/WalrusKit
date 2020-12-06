@@ -28,7 +28,7 @@
 		CA2C1B7825503AAB002469E4 /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2C1B7725503AAB002469E4 /* UIColor+extension.swift */; };
 		CA2C1B7B25503AD2002469E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA2C1B7A25503AD2002469E4 /* Assets.xcassets */; };
 		CA2C1C0F25504D91002469E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA2C1B7A25503AD2002469E4 /* Assets.xcassets */; };
-		CA4D52B4254AE62800A6FD0B /* DeliveryClubUI.h in Headers */ = {isa = PBXBuildFile; fileRef = CA4D52B2254AE62800A6FD0B /* DeliveryClubUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA4D52B4254AE62800A6FD0B /* WalrusKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CA4D52B2254AE62800A6FD0B /* WalrusKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA4D52C4254AE7C100A6FD0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4D52C3254AE7C100A6FD0B /* AppDelegate.swift */; };
 		CA4D52C6254AE7C100A6FD0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4D52C5254AE7C100A6FD0B /* SceneDelegate.swift */; };
 		CA4D52C8254AE7C100A6FD0B /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4D52C7254AE7C100A6FD0B /* MenuViewController.swift */; };
@@ -36,8 +36,8 @@
 		CA4D52D0254AE7C300A6FD0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA4D52CE254AE7C300A6FD0B /* LaunchScreen.storyboard */; };
 		CA4D5386254AEFB500A6FD0B /* ColorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4D5385254AEFB500A6FD0B /* ColorsView.swift */; };
 		CA4D5391254AFF8400A6FD0B /* GridStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4D5390254AFF8400A6FD0B /* GridStack.swift */; };
-		CA4D53A2254B0FD000A6FD0B /* DeliveryClubUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA4D52AF254AE62800A6FD0B /* DeliveryClubUI.framework */; };
-		CA4D53A3254B0FD000A6FD0B /* DeliveryClubUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CA4D52AF254AE62800A6FD0B /* DeliveryClubUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CA4D53A2254B0FD000A6FD0B /* WalrusKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA4D52AF254AE62800A6FD0B /* WalrusKit.framework */; };
+		CA4D53A3254B0FD000A6FD0B /* WalrusKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CA4D52AF254AE62800A6FD0B /* WalrusKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +57,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				CA4D53A3254B0FD000A6FD0B /* DeliveryClubUI.framework in Embed Frameworks */,
+				CA4D53A3254B0FD000A6FD0B /* WalrusKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -85,10 +85,10 @@
 		A0FA6B85256F927B00501146 /* WalrusColor+UIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WalrusColor+UIKit.swift"; sourceTree = "<group>"; };
 		CA2C1B7725503AAB002469E4 /* UIColor+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+extension.swift"; sourceTree = "<group>"; };
 		CA2C1B7A25503AD2002469E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CA4D52AF254AE62800A6FD0B /* DeliveryClubUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DeliveryClubUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA4D52B2254AE62800A6FD0B /* DeliveryClubUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeliveryClubUI.h; sourceTree = "<group>"; };
+		CA4D52AF254AE62800A6FD0B /* WalrusKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WalrusKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA4D52B2254AE62800A6FD0B /* WalrusKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WalrusKit.h; sourceTree = "<group>"; };
 		CA4D52B3254AE62800A6FD0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CA4D52C1254AE7C100A6FD0B /* DeliveryClubUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeliveryClubUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA4D52C1254AE7C100A6FD0B /* WalrusKitExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalrusKitExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA4D52C3254AE7C100A6FD0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA4D52C5254AE7C100A6FD0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CA4D52C7254AE7C100A6FD0B /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
@@ -112,7 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA4D53A2254B0FD000A6FD0B /* DeliveryClubUI.framework in Frameworks */,
+				CA4D53A2254B0FD000A6FD0B /* WalrusKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,8 +183,8 @@
 		CA4D52A5254AE62800A6FD0B = {
 			isa = PBXGroup;
 			children = (
-				CA4D52B1254AE62800A6FD0B /* DeliveryClubUI */,
-				CA4D52C2254AE7C100A6FD0B /* DeliveryClubUIApp */,
+				CA4D52B1254AE62800A6FD0B /* WalrusKit */,
+				CA4D52C2254AE7C100A6FD0B /* WalrusKitExampleApp */,
 				CA4D52B0254AE62800A6FD0B /* Products */,
 				5CD045BC49AF392A0E3F6964 /* Frameworks */,
 			);
@@ -193,28 +193,28 @@
 		CA4D52B0254AE62800A6FD0B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CA4D52AF254AE62800A6FD0B /* DeliveryClubUI.framework */,
-				CA4D52C1254AE7C100A6FD0B /* DeliveryClubUIApp.app */,
+				CA4D52AF254AE62800A6FD0B /* WalrusKit.framework */,
+				CA4D52C1254AE7C100A6FD0B /* WalrusKitExampleApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CA4D52B1254AE62800A6FD0B /* DeliveryClubUI */ = {
+		CA4D52B1254AE62800A6FD0B /* WalrusKit */ = {
 			isa = PBXGroup;
 			children = (
 				CA4D5375254AEB1B00A6FD0B /* Resources */,
 				CA4D5374254AEB1000A6FD0B /* Sources */,
 			);
-			path = DeliveryClubUI;
+			path = WalrusKit;
 			sourceTree = "<group>";
 		};
-		CA4D52C2254AE7C100A6FD0B /* DeliveryClubUIApp */ = {
+		CA4D52C2254AE7C100A6FD0B /* WalrusKitExampleApp */ = {
 			isa = PBXGroup;
 			children = (
 				CA4D5377254AEB2A00A6FD0B /* Resources */,
 				CA4D5376254AEB2300A6FD0B /* Sources */,
 			);
-			path = DeliveryClubUIApp;
+			path = WalrusKitExampleApp;
 			sourceTree = "<group>";
 		};
 		CA4D5374254AEB1000A6FD0B /* Sources */ = {
@@ -232,7 +232,7 @@
 			children = (
 				A0C80251256FF223003A503B /* Fonts */,
 				CA2C1B7A25503AD2002469E4 /* Assets.xcassets */,
-				CA4D52B2254AE62800A6FD0B /* DeliveryClubUI.h */,
+				CA4D52B2254AE62800A6FD0B /* WalrusKit.h */,
 				CA4D52B3254AE62800A6FD0B /* Info.plist */,
 			);
 			path = Resources;
@@ -301,16 +301,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA4D52B4254AE62800A6FD0B /* DeliveryClubUI.h in Headers */,
+				CA4D52B4254AE62800A6FD0B /* WalrusKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		CA4D52AE254AE62800A6FD0B /* DeliveryClubUI */ = {
+		CA4D52AE254AE62800A6FD0B /* WalrusKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CA4D52B7254AE62800A6FD0B /* Build configuration list for PBXNativeTarget "DeliveryClubUI" */;
+			buildConfigurationList = CA4D52B7254AE62800A6FD0B /* Build configuration list for PBXNativeTarget "WalrusKit" */;
 			buildPhases = (
 				CA4D52AA254AE62800A6FD0B /* Headers */,
 				CA4D52AB254AE62800A6FD0B /* Sources */,
@@ -321,14 +321,14 @@
 			);
 			dependencies = (
 			);
-			name = DeliveryClubUI;
+			name = WalrusKit;
 			productName = DeliveryClubUI;
-			productReference = CA4D52AF254AE62800A6FD0B /* DeliveryClubUI.framework */;
+			productReference = CA4D52AF254AE62800A6FD0B /* WalrusKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CA4D52C0254AE7C100A6FD0B /* DeliveryClubUIApp */ = {
+		CA4D52C0254AE7C100A6FD0B /* WalrusKitExampleApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CA4D52D2254AE7C300A6FD0B /* Build configuration list for PBXNativeTarget "DeliveryClubUIApp" */;
+			buildConfigurationList = CA4D52D2254AE7C300A6FD0B /* Build configuration list for PBXNativeTarget "WalrusKitExampleApp" */;
 			buildPhases = (
 				CA4D52BD254AE7C100A6FD0B /* Sources */,
 				CA4D52BE254AE7C100A6FD0B /* Frameworks */,
@@ -340,9 +340,9 @@
 			dependencies = (
 				CA4D539D254B0FBB00A6FD0B /* PBXTargetDependency */,
 			);
-			name = DeliveryClubUIApp;
+			name = WalrusKitExampleApp;
 			productName = DeliveryClubUIApp;
-			productReference = CA4D52C1254AE7C100A6FD0B /* DeliveryClubUIApp.app */;
+			productReference = CA4D52C1254AE7C100A6FD0B /* WalrusKitExampleApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -363,7 +363,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CA4D52A9254AE62800A6FD0B /* Build configuration list for PBXProject "DeliveryClubUI" */;
+			buildConfigurationList = CA4D52A9254AE62800A6FD0B /* Build configuration list for PBXProject "WalrusKit" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -376,8 +376,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CA4D52AE254AE62800A6FD0B /* DeliveryClubUI */,
-				CA4D52C0254AE7C100A6FD0B /* DeliveryClubUIApp */,
+				CA4D52AE254AE62800A6FD0B /* WalrusKit */,
+				CA4D52C0254AE7C100A6FD0B /* WalrusKitExampleApp */,
 			);
 		};
 /* End PBXProject section */
@@ -447,7 +447,7 @@
 /* Begin PBXTargetDependency section */
 		CA4D539D254B0FBB00A6FD0B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CA4D52AE254AE62800A6FD0B /* DeliveryClubUI */;
+			target = CA4D52AE254AE62800A6FD0B /* WalrusKit */;
 			targetProxy = CA4D539C254B0FBB00A6FD0B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -596,7 +596,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = DeliveryClubUI/Resources/Info.plist;
+				INFOPLIST_FILE = WalrusKit/Resources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -604,7 +604,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dc.DeliveryClubUI;
+				PRODUCT_BUNDLE_IDENTIFIER = dc.WalrusKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
@@ -624,7 +624,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = DeliveryClubUI/Resources/Info.plist;
+				INFOPLIST_FILE = WalrusKit/Resources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -632,7 +632,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dc.DeliveryClubUI;
+				PRODUCT_BUNDLE_IDENTIFIER = dc.WalrusKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
@@ -709,7 +709,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = DeliveryClubUI/Resources/Info.plist;
+				INFOPLIST_FILE = WalrusKit/Resources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -717,7 +717,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dc.DeliveryClubUI;
+				PRODUCT_BUNDLE_IDENTIFIER = dc.WalrusKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
@@ -733,13 +733,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2CKNNNH7SR;
-				INFOPLIST_FILE = DeliveryClubUIApp/Resources/Info.plist;
+				INFOPLIST_FILE = WalrusKitExampleApp/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dc.DeliveryClubUIApp;
+				PRODUCT_BUNDLE_IDENTIFIER = dc.WalrusKitExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -753,13 +753,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2CKNNNH7SR;
-				INFOPLIST_FILE = DeliveryClubUIApp/Resources/Info.plist;
+				INFOPLIST_FILE = WalrusKitExampleApp/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dc.DeliveryClubUIApp;
+				PRODUCT_BUNDLE_IDENTIFIER = dc.WalrusKitExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -773,13 +773,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2CKNNNH7SR;
-				INFOPLIST_FILE = DeliveryClubUIApp/Resources/Info.plist;
+				INFOPLIST_FILE = WalrusKitExampleApp/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dc.DeliveryClubUIApp;
+				PRODUCT_BUNDLE_IDENTIFIER = dc.WalrusKitExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -789,7 +789,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CA4D52A9254AE62800A6FD0B /* Build configuration list for PBXProject "DeliveryClubUI" */ = {
+		CA4D52A9254AE62800A6FD0B /* Build configuration list for PBXProject "WalrusKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CA4D52B5254AE62800A6FD0B /* Debug */,
@@ -799,7 +799,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CA4D52B7254AE62800A6FD0B /* Build configuration list for PBXNativeTarget "DeliveryClubUI" */ = {
+		CA4D52B7254AE62800A6FD0B /* Build configuration list for PBXNativeTarget "WalrusKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CA4D52B8254AE62800A6FD0B /* Debug */,
@@ -809,7 +809,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CA4D52D2254AE7C300A6FD0B /* Build configuration list for PBXNativeTarget "DeliveryClubUIApp" */ = {
+		CA4D52D2254AE7C300A6FD0B /* Build configuration list for PBXNativeTarget "WalrusKitExampleApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CA4D52D3254AE7C300A6FD0B /* Debug */,

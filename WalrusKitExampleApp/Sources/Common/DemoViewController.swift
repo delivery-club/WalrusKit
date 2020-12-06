@@ -1,6 +1,6 @@
 //
 //  DemoViewController.swift
-//  DeliveryClubUIApp
+//  WalrusKitExampleApp
 //
 //  Created by Sakhey Ignatyev on 26.11.2020.
 //
