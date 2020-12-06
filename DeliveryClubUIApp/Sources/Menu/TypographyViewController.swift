@@ -63,7 +63,6 @@ final class TypographySampleUIKit: UIView {
             let wrapper = UIView()
             let label = UILabel()
             label.attributedText = text(kind.sampleText, with: kind)
-                .withColor(.error)
             wrapper.addSubview(label)
             label.translatesAutoresizingMaskIntoConstraints = false
             NSLayoutConstraint.activate([
