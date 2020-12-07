@@ -29,7 +29,7 @@ Pod::Spec.new do |spec|
   We want to share with you what we've got so far.
                    DESC
 
-  spec.homepage     = "https://github.com/delivery-club/Design-System"
+  spec.homepage     = "https://github.com/delivery-club/WalrusKit"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/delivery-club/Design-System.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/delivery-club/WalrusKit.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
