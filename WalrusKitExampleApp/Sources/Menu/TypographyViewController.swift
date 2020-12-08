@@ -21,18 +21,7 @@ final class TypographyViewController: DemoViewController<TypographySampleUIKit, 
 
 struct TypographySampleSwiftUI: View {
     var body: some View {
-        GeometryReader { geometry in
-            ScrollView([.vertical, .horizontal], showsIndicators: false) {
-                VStack(alignment: .leading, spacing: 10) {
-                    ForEach(Typography.Kind.allStyles.map { $0.style }, id: \.id) { style in
-                        text(style.kind.sampleText, with: style.kind)
-                            .withColor(.dcDefault)
-                    }
-                }
-                .padding([.leading, .trailing], 10)
-                .frame(minHeight: geometry.size.height, alignment: .top)
-            }
-        }
+        Text("TBD")
     }
 }
 
@@ -74,7 +63,6 @@ final class TypographySampleUIKit: UIView {
             let wrapper = UIView()
             let label = UILabel()
             label.attributedText = text(kind.sampleText, with: kind)
-                .withColor(.error)
             wrapper.addSubview(label)
             label.translatesAutoresizingMaskIntoConstraints = false
             NSLayoutConstraint.activate([
